@@ -51,11 +51,13 @@ jobs:
           done > tidy.log
           gtfstidy -E --drop-shapes --keep-ids -AC at_*.zip -o gtfs_austria_clean.zip --fix --remove-fillers >> tidy.log
 
-      - name: Upload cleaned GTFS as artifact
-        uses: actions/upload-artifact@v4
+      - name: Upload cleaned GTFS as release asset
+        uses: softprops/action-gh-release@v1
         with:
-          name: gtfs_austria_clean
-          path: gtfs_austria_clean.zip
+          tag_name: latest
+          files: gtfs_austria_clean.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload tidy log as artifact
         uses: actions/upload-artifact@v4
