@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           persist-credentials: false
 
@@ -51,12 +51,29 @@ jobs:
           done > tidy.log
           gtfstidy -E --drop-shapes --keep-ids -AC at_*.zip -o gtfs_austria_clean.zip --fix --remove-fillers >> tidy.log
 
-      - name: Commit and push cleaned feed
+      - name: Upload cleaned GTFS as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gtfs_austria_clean
+          path: gtfs_austria_clean.zip
+
+      - name: Upload tidy log as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tidy_log
+          path: tidy.log
+
+      - name: Write timestamp
+        run: date -u +"%Y-%m-%dT%H:%M:%SZ" > last_update.txt
+
+      - name: Commit update timestamp
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add gtfs_austria_clean.zip tidy.log
-          git commit -m "Update and clean merged GTFS feed" || echo "No changes to commit"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+          git add last_update.txt
+          git commit -m "Update GTFS timestamp"
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
