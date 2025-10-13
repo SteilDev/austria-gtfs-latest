@@ -48,7 +48,7 @@ jobs:
         run: |
           export PATH=$PATH:$HOME/go/bin
           for g in at_*.zip; do
-            gtfstidy "$g" -i --fix --keep-stop-ids --fix-zip --remove-red-services --remove-fillers --drop-shapes --delete-orphans --output "$g"
+            gtfstidy "$g" -i --fix --keep-station-ids --fix-zip --remove-red-services --remove-fillers --drop-shapes --delete-orphans --output "$g"
           done > tidy.log
           gtfstidy -EARPICO --red-trips-fuzzy --red-stops-fuzzy --drop-shapes --hierarchical-stop-ids at_*.zip -o gtfs_austria_clean.zip --fix --remove-fillers >> tidy.log
 
