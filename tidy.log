@@ -127,12 +127,12 @@ Parsing GTFS feed in 'at_Railway-Current-Reference-Data-2026.gtfs.zip' ... done.
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
 Removing redundant agencies... done. (-118 agencies [-37.11%])
 Removing redundant stops... done. (-11959 stops [-10.19%])
-Reclustering stops... done. (-61289 clusters) [-65.00%]
+Reclustering stops... done. (-61279 clusters) [-64.99%]
 Removing redundant routes... done. (-9509 routes [-51.01%])
 Removing service duplicates... done. (-816 services [-24.79%])
-Removing redundant trips... done. (-86387 trips [-17.64%])
-Removing unreferenced entries... done. (-0 trips [-0.00%], -1908 stops [-1.43%], -0 shapes [-0.00%], -2014 services [-2.77%], -230 routes [-2.52%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Removing service duplicates... done. (-68116 services [-96.18%])
-Adding parent stations to all stops... done. (+3852 stations)
+Removing redundant trips... done. (-85594 trips [-17.48%])
+Removing unreferenced entries... done. (-0 trips [-0.00%], -2121 stops [-1.59%], -0 shapes [-0.00%], -1832 services [-2.55%], -232 routes [-2.54%], -0 agencies [-0.00%], -0 transfers [-0.00%])
+Removing service duplicates... done. (-67303 services [-96.13%])
+Adding parent stations to all stops... done. (+3854 stations)
 Encoding stop_ids via parent_station ids ... done.
 Outputting GTFS feed to 'gtfs_austria_clean.zip'... done.
