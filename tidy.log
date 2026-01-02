@@ -1,64 +1,64 @@
 Parsing GTFS feed in 'at_Linz-AG-2026.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
-Removing unreferenced entries... done. (-0 trips [-0.00%], -9 stops [-1.02%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-134 clusters) [-15.51%]
-Removing service duplicates... done. (-121 services [-50.21%])
+Removing unreferenced entries... done. (-0 trips [-0.00%], -10 stops [-1.13%], -0 shapes [-0.00%], -0 services [-0.00%], -2 routes [-5.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
+Reclustering stops... done. (-135 clusters) [-15.64%]
+Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'at_Linz-AG-2026.gtfs.zip'... done.
 Parsing GTFS feed in 'at_PTA-Carinthia-Flex-2026.gtfs.zip' ... done. (0 trips [0.00%], 896 stop times [0.30%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-2 trips [-0.01%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -2302 stops [-29.55%], -0 shapes [-0.00%], -12 services [-7.23%], -37 routes [-14.57%], -5 agencies [-25.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-1887 clusters) [-38.53%]
+Reclustering stops... done. (-1884 clusters) [-38.47%]
 Removing service duplicates... done. (-52 services [-33.77%])
 Minimizing ids... done.
 Outputting GTFS feed to 'at_PTA-Carinthia-Flex-2026.gtfs.zip'... done.
 Parsing GTFS feed in 'at_PTA-Eastern-Region-Flex-2026.gtfs.zip' ... done. (0 trips [0.00%], 1312 stop times [0.05%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-10 trips [-0.01%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -5189 stops [-19.28%], -0 shapes [-0.00%], -3 services [-0.82%], -33 routes [-3.59%], -1 agencies [-3.70%], -0 transfers [-0.00%])
-Reclustering stops... done. (-7996 clusters) [-41.65%]
-Removing service duplicates... done. (-135 services [-37.29%])
+Reclustering stops... done. (-8009 clusters) [-41.72%]
+Removing service duplicates... done. (-136 services [-37.67%])
 Minimizing ids... done.
 Outputting GTFS feed to 'at_PTA-Eastern-Region-Flex-2026.gtfs.zip'... done.
 Parsing GTFS feed in 'at_PTA-Salzburg-Flex-2026.gtfs.zip' ... done. (0 trips [0.00%], 336 stop times [0.06%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-2 trips [-0.01%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -353 stops [-6.81%], -0 shapes [-0.00%], -2 services [-0.49%], -28 routes [-14.29%], -3 agencies [-13.04%], -0 transfers [-0.00%])
-Reclustering stops... done. (-1876 clusters) [-41.40%]
+Reclustering stops... done. (-1881 clusters) [-41.51%]
 Removing service duplicates... done. (-107 services [-26.55%])
 Minimizing ids... done.
 Outputting GTFS feed to 'at_PTA-Salzburg-Flex-2026.gtfs.zip'... done.
 Parsing GTFS feed in 'at_PTA-Styria-Flex-2026.gtfs.zip' ... done. (0 trips [0.00%], 74 stop times [0.01%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -1880 stops [-11.69%], -0 shapes [-0.00%], -5 services [-0.47%], -12 routes [-2.23%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-5661 clusters) [-42.24%]
-Removing service duplicates... done. (-733 services [-69.74%])
+Reclustering stops... done. (-5660 clusters) [-42.23%]
+Removing service duplicates... done. (-733 services [-69.94%])
 Minimizing ids... done.
 Outputting GTFS feed to 'at_PTA-Styria-Flex-2026.gtfs.zip'... done.
 Parsing GTFS feed in 'at_PTA-Tyrol-2026.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -2 stops [-0.03%], -0 shapes [-0.00%], -0 services [-0.00%], -1 routes [-0.26%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-2477 clusters) [-39.89%]
-Removing service duplicates... done. (-89 services [-20.89%])
+Reclustering stops... done. (-2478 clusters) [-39.91%]
+Removing service duplicates... done. (-93 services [-21.88%])
 Minimizing ids... done.
 Outputting GTFS feed to 'at_PTA-Tyrol-2026.gtfs.zip'... done.
 Parsing GTFS feed in 'at_PTA-Upper-Austria-Flex-2026.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-1 trips [-0.01%], -1 stops [-0.01%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
 Reclustering stops... done. (-3481 clusters) [-41.32%]
-Removing service duplicates... done. (-21 services [-15.67%])
+Removing service duplicates... done. (-22 services [-16.54%])
 Minimizing ids... done.
 Outputting GTFS feed to 'at_PTA-Upper-Austria-Flex-2026.gtfs.zip'... done.
 Parsing GTFS feed in 'at_PTA-Vorarlberg-Flex-2026.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-1620 clusters) [-42.32%]
+Reclustering stops... done. (-1621 clusters) [-42.35%]
 Removing service duplicates... done. (-103 services [-34.92%])
 Minimizing ids... done.
 Outputting GTFS feed to 'at_PTA-Vorarlberg-Flex-2026.gtfs.zip'... done.
 Parsing GTFS feed in 'at_Railway-Current-Reference-Data-2026.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
-Removing unreferenced entries... done. (-1 trips [-0.01%], -27 stops [-0.39%], -0 shapes [-0.00%], -0 services [-0.00%], -595 routes [-5.18%], -0 agencies [-0.00%], -18 transfers [-99.99%])
+Removing unreferenced entries... done. (-1 trips [-0.01%], -27 stops [-0.39%], -0 shapes [-0.00%], -0 services [-0.00%], -653 routes [-5.69%], -0 agencies [-0.00%], -18 transfers [-99.99%])
 Reclustering stops... done. (-305 clusters) [-20.01%]
-Removing service duplicates... done. (-112 services [-6.18%])
+Removing service duplicates... done. (-122 services [-6.75%])
 Minimizing ids... done.
 Outputting GTFS feed to 'at_Railway-Current-Reference-Data-2026.gtfs.zip'... done.
 Parsing GTFS feed in 'at_Linz-AG-2026.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
@@ -72,16 +72,16 @@ Parsing GTFS feed in 'at_PTA-Vorarlberg-Flex-2026.gtfs.zip' ... done. (0 trips [
 Parsing GTFS feed in 'at_Railway-Current-Reference-Data-2026.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
 Removing redundant agencies... done. (-6 agencies [-2.99%])
-Adding parent stations to all stops... done. (+12358 stations)
-Removing redundant stops... done. (-2660 stops [-2.42%])
-Reclustering stops... done. (-1499 clusters) [-4.08%]
-Removing redundant routes... done. (-5877 routes [-42.81%])
-Removing service duplicates... done. (-356 services [-10.45%])
-Minimizing services... done. (-246180 calendar_dates.txt entries [-89.25%], -224 calendar.txt entries [-7.34%])
-Removing redundant trips... done. (-14455 trips [-3.65%])
-Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -391 services [-2.38%], -39 routes [-0.50%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Removing service duplicates... done. (-13016 services [-81.32%])
-Minimizing services... done. (-1162 calendar_dates.txt entries [-3.61%], +58 calendar.txt entries [+2.13%])
+Adding parent stations to all stops... done. (+12343 stations)
+Removing redundant stops... done. (-2656 stops [-2.41%])
+Reclustering stops... done. (-1495 clusters) [-4.07%]
+Removing redundant routes... done. (-5848 routes [-42.79%])
+Removing service duplicates... done. (-352 services [-10.42%])
+Minimizing services... done. (-243222 calendar_dates.txt entries [-89.24%], -234 calendar.txt entries [-7.74%])
+Removing redundant trips... done. (-15839 trips [-4.04%])
+Removing unreferenced entries... done. (-0 trips [-0.00%], -2 stops [-0.00%], -0 shapes [-0.00%], -370 services [-2.09%], -38 routes [-0.49%], -0 agencies [-0.00%], -0 transfers [-0.00%])
+Removing service duplicates... done. (-14396 services [-82.91%])
+Minimizing services... done. (-1416 calendar_dates.txt entries [-4.40%], +58 calendar.txt entries [+2.16%])
 Computing stable stop ids ... done.
 Encoding stop_ids via parent_station ids ... done.
 Outputting GTFS feed to 'gtfs_austria_clean.zip'... done.
